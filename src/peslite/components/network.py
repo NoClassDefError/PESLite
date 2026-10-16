@@ -296,4 +296,4 @@ class Load(Element):
     def retune(self, cfg: Any) -> None:
         """Take new load parameters while preserving branch current."""
         self.cfg = cfg
-        self.branch.retune(cfg.l, cfg.r)
+        self.branch.retune(cfg.l, cfg.r) 
